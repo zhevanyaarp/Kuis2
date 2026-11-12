@@ -7,7 +7,6 @@ public class Kuis26Zhevanya {
         int total = 0;
         int jumlahTransaksi = 0;
         int totalPorsi = 0;
-        int jumlahPorsi;
 
         System.out.print("Jumlah porsi (0 = selesai): ");
         porsi = sc.nextInt();
@@ -18,7 +17,7 @@ public class Kuis26Zhevanya {
             int biaya = 15000 + (porsi - 1) * 12000;
             porsi++;
             
-            if (jumlahPorsi < 1 || jumlahPorsi >= 10) {
+            if (int jumlahPorsi < 1 || jumlahPorsi >= 10) {
                 System.out.println("Input tidak valid.");
             }
 
